@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans Oriya', sans-serif;
+    background: linear-gradient(to top, #1a1a1a, #000);
+    color: #fff;
+    overflow: hidden;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    z-index: 10;
+    padding-top: 100px;
+}
+
+h1 {
+    font-size: 4em;
+    color: #FFD700;
+    text-shadow: 2px 2px 8px #ff0000;
+}
+
+.wish-box {
+    margin: 30px auto;
+    background: rgba(255, 215, 0, 0.2);
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 1.5em;
+    box-shadow: 0 0 20px #ff4500;
+}
+
+button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background: #ff4500;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 0 10px #ff6347;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
